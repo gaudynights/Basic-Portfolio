@@ -1,0 +1,230 @@
+
+body 
+{
+  	padding: 0;
+ 	margin: 0;
+  	background:#efeee7;
+  	background-image:url('../images/dust_scratches.png');
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	line-height: 150%;
+	font-size: 18px;
+}
+
+header
+{
+	background: #ffffff;
+	height:67px;
+	border-bottom: 2px solid #cccccc;
+
+}
+
+#name {
+	background:#4aaaa5;
+	color:white;
+	padding:20px;
+	width:200px;
+  	margin-left:15%;
+  	float:left;
+
+}
+
+.top-links {
+	font-size: 18px;
+	float:right;
+	padding:20px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	text-decoration: none;
+
+}
+
+a:link {
+    text-decoration: none;
+    color:#777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#777777;
+}
+
+.left-head {
+	width:100%;
+	border-bottom: 2px solid grey;
+	padding-right:0px;
+}
+
+h1
+{
+	color:#4aaaa5;
+	font-size: 28px;
+	margin: 0;   
+	padding: 10px; 
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2
+{
+	font-size: 24px 
+	width:100%;
+	border-bottom: 2px solid grey;
+	padding-right:0px;
+	margin-bottom: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	 
+}
+
+
+
+#bio-image 
+{
+	width:150px;
+	height:150px;
+	float:left;
+	padding: 10px;
+}
+
+#main-bio
+{
+	margin-top: 50px;
+	background: white;
+  	padding: 20px;
+  	float:left;
+  	width:60%;
+
+}
+
+#contact-form
+{
+	margin-top: 50px;
+	background: white;
+  	padding: 20px;
+  	float:left;
+  	width:60%;
+
+}
+
+.site-image
+{
+	width:100%;
+	height:100%;
+	max-width: 300px;
+	max-height: 300px;
+	/*padding: 10px;*/
+	margin:10px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 99;
+}
+
+.site-name {
+	position:absolute;
+	top:50%;
+	text-align: center;
+	z-index: 100;
+	height:30px;
+	background:#4aaaa5;
+	color:white;
+	width:100%;
+	max-width: 200px;
+	margin:10px;
+}
+
+.left-block {
+
+	float:left;
+
+  	width:40%;
+  	height:25%;
+	margin:10px;
+	position:relative;
+	left:0px;
+}
+
+.right-block {
+
+	float:right;
+
+  	width:40%;
+  	height:25%;
+/*	padding: 5%;*/
+	margin: 10px;
+	position:relative;
+	right:10px;
+}
+
+.site-group {
+
+}
+
+/*#pastrami {
+	background-image: url("http://www.farmerboys.com/wp-content/uploads/2015/08/menu-hearty-pastrami-sandwich.jpg");
+	background-size: 100%;
+
+}*/
+
+/*#pizza {
+	background-image: url("http://www.urbanbrickspizza.com/wp-content/uploads/2017/03/7-1.png");
+	background-size: 100%;
+
+}*/
+
+#portfolio-space
+{
+	margin-top: 50px;
+	background: white;
+  	padding: 20px;
+  	float:left;
+  	width:60%;
+  	height:700px;
+  	margin-bottom: 20px;
+
+}
+
+#contact-info
+{
+	margin-top: 50px;
+	background: white;
+  	padding: 20px;
+	float:right;
+	width:25%;
+}
+
+.about
+{
+  	background:#efeee7;
+  	margin-left:15%;
+  	margin-right:15%;
+  	margin-bottom: 570px;
+ /* 	height: 100%*/
+}
+
+.contact
+{
+  	background:#efeee7;
+  	margin-left:15%;
+  	margin-right:15%;
+  	margin-bottom: 570px;
+ /* 	height: 100%*/
+}
+
+textarea {
+	width:100%;
+	height:200px;
+}
+
+footer {
+	height:80px;
+	font-size: 12px;
+	text-align: center;
+	background:#666666;
+	color:white;
+	border-top: 8px solid #4aaaa5;
+  	clear: both;	
+  	position: relative;
+  	bottom:-1px;
+}
